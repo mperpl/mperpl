@@ -1,8 +1,7 @@
 ### Cześć, jestem Michał 👋
 
-> **Backend Developer w budowie | Pasjonat Pythona, FastAPI i systemów chmurowych.**
 
-Jestem studentem informatyki ukierunkowanym na backend. Od przyszłego semestru rozpocznę także specjalizację w systemach na swojej uczelni.
+Jestem studentem informatyki ukierunkowanym na **backend**. Od przyszłego semestru rozpocznę także specjalizację w systemach chmurowych na swojej uczelni.
 Aktywnie rozwijam swoje umiejętności w nowoczesnym ekosystemie Python. Poszukuję pierwszej pracy lub stażu jako Junior Backend Developer lub Python Developer.
 
 ---
@@ -19,7 +18,7 @@ Aktywnie rozwijam swoje umiejętności w nowoczesnym ekosystemie Python. Poszuku
 w niedalekiej przyszłości Redis i Docker
 ---
 
-### 🚀 Najważniejsze Projekty
+### 🚀 Wybrane Projekty
 
 * **Simple Login API** – Prosty system logowania z tokenami JWT i  refresh tokenem.
 * **Console Library Management System with PostgreSQL** – Aplikacja do zarządzania bazą danych biblioteki. (umiejętności SQL)
