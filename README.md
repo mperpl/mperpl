@@ -1,40 +1,39 @@
-### Cześć, jestem Michał 👋
+### Hi, I'm Michał 👋
 
-
-Jestem studentem informatyki ukierunkowanym na **backend**. Od przyszłego semestru rozpocznę także specjalizację w systemach chmurowych na swojej uczelni.
-Aktywnie rozwijam swoje umiejętności w nowoczesnym ekosystemie Python. Poszukuję pierwszej pracy lub stażu jako Junior Backend Developer lub Python Developer.
+I am a Computer Science student focused on **backend development**. Starting next semester, I will also begin a specialization in cloud systems at my university.
+I am actively developing my skills within the modern Python ecosystem. I am looking for my first job or internship as a Junior Backend Developer or Python Developer.
 
 ---
 
-### ⚙️ Mój Stack Technologiczny
+### ⚙️ My Technology Stack
 
-| Kategoria | Technologie |
+| Category | Technologies |
 | :--- | :--- |
-| **Główny Backend** | Python, FastAPI, SQLAlchemy (Core/ORM), Pydantic |
-| **Bazy Danych** | PostgreSQL, SQLite, SQL |
-| **Narzędzia Deweloperskie** | Git, Pytest (w trakcie nauki) |
-| **Dodatkowe (FrontEnd)** | JavaScript, React (podstawy) |
+| **Primary Backend** | Python, FastAPI, SQLAlchemy (Core/ORM), Pydantic |
+| **Databases** | PostgreSQL, SQLite, SQL |
+| **Developer Tools** | Git, Pytest (currently learning) |
+| **Additional (FrontEnd)** | JavaScript, React (basics) |
 
-w niedalekiej przyszłości Redis i Docker
+Redis and Docker are planned for the near future.
 ---
 
-### 🚀 Wybrane Projekty
+### 🚀 Featured Projects
 
-* **Simple Login API** – Prosty system logowania z tokenami JWT i  refresh tokenem.
-* **Console Library Management System with PostgreSQL** – Aplikacja do zarządzania bazą danych biblioteki. (umiejętności SQL)
+* **Simple Login API** – A simple login system with JWT tokens and a refresh token.
+* **Console Library Management System with PostgreSQL** – An application for managing a library database. (SQL skills demonstration)
 
 ---
 
-### 🌱 Obecne Cele i Plany
+### 🌱 Current Goals and Plans
 
-1. Nauka testów z Pytest (aktualne zajęcie)
-2. Integracja FastAPI z Redis (RBAC API with JWT auth and Redis caching)
+1. Learning tests with Pytest (current focus)
+2. Integrating FastAPI with Redis (RBAC API with JWT auth and Redis caching)
 3. Docker
-(możliwe, że zamienię kolejność punktu 2 i 3)
+(I might swap the order of points 2 and 3)
 
 ---
 
-### 📬 Kontakt
+### 📬 Contact
 
 * **Email:** perczak.michal.pl@gmail.com
-* **Telefon**: 533 671 186
+* **Phone**: 533 671 186
