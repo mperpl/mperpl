@@ -28,8 +28,9 @@ w niedalekiej przyszłości Redis i Docker
 ### 🌱 Obecne Cele i Plany
 
 1. Nauka testów z Pytest (aktualne zajęcie)
-2. Integracja FastAPI z Redis (RBAC API with JWT auth and Redis caching - to co w bio)
+2. Integracja FastAPI z Redis (RBAC API with JWT auth and Redis caching)
 3. Docker
+(możliwe, że zamienię kolejność punktu 2 i 3)
 
 ---
 
