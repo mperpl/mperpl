@@ -1,39 +1,47 @@
-### Hi, I'm Michał 👋
+# Hi, I'm Michał 👋
 
-I am a Computer Science student focused on **backend development**. Starting next semester, I will also begin a specialization in cloud systems at my university.
-I am actively developing my skills within the modern Python ecosystem. I am looking for my first job or internship as a Junior Backend Developer or Python Developer.
+I am a **Computer Science student** and aspiring **Backend Developer** with a strong focus on building scalable and secure APIs. Currently, I am about to specialize in **Cloud Systems** to better understand modern infrastructure and deployment.
+
+I enjoy solving problems behind the scenes and turning complex logic into clean, efficient code.
 
 ---
 
-### ⚙️ My Technology Stack
+## ⚙️ My Technology Stack
 
 | Category | Technologies |
 | :--- | :--- |
-| **Primary Backend** | Python, FastAPI, SQLAlchemy (Core/ORM), Pydantic |
+| **Primary Backend** | **Python**, FastAPI, SQLAlchemy |
 | **Databases** | PostgreSQL, SQLite, SQL |
-| **Developer Tools** | Git, Pytest (currently learning) |
-| **Additional (FrontEnd)** | JavaScript, React (basics) |
-
-Redis and Docker are planned for the near future.
----
-
-### 🚀 Featured Projects
-
-* **Simple Login API** – A simple login system with JWT tokens and a refresh token.
-* **Console Library Management System with PostgreSQL** – An application for managing a library database. (SQL skills demonstration)
+| **DevOps & Tools** | **Docker, Docker Compose**, Git, **UV**, Linux CLI |
+| **Testing** | **Pytest** |
+| **Frontend (used to know)** | JavaScript, React |
 
 ---
 
-### 🌱 Current Goals and Plans
+## 🚀 Featured Projects
 
-1. Learning tests with Pytest (current focus)
-2. Integrating FastAPI with Redis (RBAC API with JWT auth and Redis caching)
-3. Docker
-(I might swap the order of points 2 and 3)
+* **[Simple Login API](https://github.com/mperpl/simple_login_api)** – A robust backend foundation featuring **JWT Authentication** (Access & Refresh tokens).
+    * *Key tech:* FastAPI, SQLAlchemy, Docker, Pytest, UV.
 
 ---
 
-### 📬 Contact
+## 🌱 Current Focus & Goals
 
-* **Email:** perczak.michal.pl@gmail.com
-* **Phone**: 533 671 186
+1.  **Cloud Native:** Transitioning from local Docker setups to cloud deployments (Azure).
+2.  **Advanced Backend:** Implementing Redis for caching and managing complex RBAC (Role-Based Access Control) systems.
+
+---
+
+## 🎨 Past Experience (Frontend)
+*Before focusing on Backend, I developed several Frontend projects. While my current focus is elsewhere, if there is a need, can quickly rebrush my old skills with ReactJS:*
+
+* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)** – A marketing landing page built with React.
+* **[Kaizen App](https://mperczak-kaizen.netlify.app/)** – A web application focused on productivity and self-improvement.
+
+---
+
+## 📬 Let's Connect
+
+* **Email:** [perczak.michal.pl@gmail.com](mailto:perczak.michal.pl@gmail.com)
+* **Phone:** +48 533 671 186
+* **GitHub:** [github.com/mperpl](https://github.com/mperpl)
