@@ -1,47 +1,57 @@
 # Hi, I'm Michał 👋
 
-I am a **Computer Science student** and aspiring **Backend Developer** with a strong focus on building scalable and secure APIs. Currently, I am about to specialize in **Cloud Systems** to better understand modern infrastructure and deployment.
+I am a **Computer Science student** (Cloud Systems & App Engineering) and an aspiring **Backend Developer**. I specialize in building high-performance, asynchronous APIs with a focus on security and scalability.
 
-I enjoy solving problems behind the scenes and turning complex logic into clean, efficient code.
 
----
-
-## ⚙️ My Technology Stack
-
-| Category | Technologies |
-| :--- | :--- |
-| **Primary Backend** | **Python**, FastAPI, SQLAlchemy |
-| **Databases** | PostgreSQL, SQLite, SQL |
-| **DevOps & Tools** | **Docker, Docker Compose**, Git, **UV**, Linux CLI |
-| **Testing** | **Pytest** |
-| **Frontend (used to know)** | JavaScript, React |
 
 ---
 
 ## 🚀 Featured Projects
 
-* **[Simple Login API](https://github.com/mperpl/simple_login_api)** – A robust backend foundation featuring **JWT Authentication** (Access & Refresh tokens).
-    * *Key tech:* FastAPI, SQLAlchemy, Docker, Pytest, UV.
+### 🌟 [PhasebookAPI (In Development)](https://github.com/mperpl/PhasebookAPI)
+**My most advanced backend project.** A scalable, asynchronous social media service featuring:
+* **Advanced Auth:** Hybrid Session Management (Redis + Signed Cookies) & OAuth2 (Google/GitHub/FB).
+* **Performance:** High-speed caching using **Redis Hashes** to optimize DB load and response times.
+* **Architecture:** Fully asynchronous stack with **FastAPI** and **SQLAlchemy 2.0**.
+* **Security:** Integrated rate limiting, background tasks for mailing, and strict Pydantic v2 validation.
+
+### 🔑 [Simple Login API](https://github.com/mperpl/simple_login_api)
+A robust foundation for user management featuring **JWT Authentication** (Access & Refresh tokens).
+* *Tech:* FastAPI, SQLAlchemy, Docker, Pytest, UV.
+
+---
+
+## ⚙️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Backend** | **Python 3.12**, FastAPI, SQLAlchemy 2.0 (Async), Pydantic v2 |
+| **Data & Cache** | **PostgreSQL**, **Redis**, SQLite |
+| **DevOps** | **Docker, Docker Compose**, Git, **UV**, Linux CLI |
+| **Testing** | **Pytest** |
+| **Security** | OAuth2, JWT, Rate Limiting, Session Middleware |
 
 ---
 
 ## 🌱 Current Focus & Goals
 
-1.  **Cloud Native:** Transitioning from local Docker setups to cloud deployments (Azure).
-2.  **Advanced Backend:** Implementing Redis for caching and managing complex RBAC (Role-Based Access Control) systems.
+I am currently deep-diving into the development of **PhasebookAPI**, focusing on:
+* **Relational Mapping:** Implementing self-referencing relationships for nested comment threads.
+* **Scalability:** Transitioning from auto-incrementing IDs to **UUID4** to prevent resource enumeration.
+* **Real-time Connectivity:** Planning WebSocket integration for instant messaging between users.
 
 ---
 
 ## 🎨 Past Experience (Frontend)
-*Before focusing on Backend, I developed several Frontend projects. While my current focus is elsewhere, if there is a need, can quickly rebrush my old skills with ReactJS:*
+*While currently focused on Backend, I have a solid foundation in React and can adapt to full-stack needs if required:*
 
-* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)** – A marketing landing page built with React.
-* **[Kaizen App](https://mperczak-kaizen.netlify.app/)** – A web application focused on productivity and self-improvement.
+* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)** – Marketing site built with React.
+* **[Kaizen App](https://mperczak-kaizen.netlify.app/)** – Productivity web app.
 
 ---
 
 ## 📬 Let's Connect
 
 * **Email:** [perczak.michal.pl@gmail.com](mailto:perczak.michal.pl@gmail.com)
-* **Phone:** +48 533 671 186
+* **Location:** Strzegom / Wrocław (Hybrid/Remote)
 * **GitHub:** [github.com/mperpl](https://github.com/mperpl)
