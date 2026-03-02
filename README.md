@@ -8,7 +8,7 @@ I am a **Computer Science student** (Cloud Systems & App Engineering) and an asp
 
 ## 🚀 Featured Projects
 
-### 🌟 [PhasebookAPI (In Development)](https://github.com/mperpl/PhasebookAPI)
+### 🌟 [PhasebookAPI (In Development)](https://github.com/mperpl/phasebook)
 **My most advanced backend project.** A scalable, asynchronous social media service featuring:
 * **Advanced Auth:** Hybrid Session Management (Redis + Signed Cookies) & OAuth2 (Google/GitHub/FB).
 * **Performance:** High-speed caching using **Redis Hashes** to optimize DB load and response times.
