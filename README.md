@@ -1,60 +1,35 @@
-# Hi, I'm Michał 👋
+# Michał Perczak
 
-I'm a **Python backend developer** and a part-time **Computer Science student** (Cloud Applications and Systems Engineering). I build APIs with **FastAPI, SQLAlchemy and PostgreSQL**, run them on **AWS**, and work in an **agentic, spec-driven** way: I write the spec and the design decisions, direct AI agents, and review the result.
+**Python backend developer** · FastAPI, PostgreSQL, AWS · agentic spec-driven development
 
----
+Computer Science student (cloud specialization), EPAM trainee program graduate. **Open to junior backend roles:** remote, or hybrid / on-site around Wrocław.
 
-## 🌟 Featured: [Inventory Management with Demand Forecasting](https://github.com/mperpl/inventory-forecasting)
+[Email](mailto:perczak.michal.pl@gmail.com)
 
-An app that records warehouse movements for a construction-chemicals producer and forecasts **when each stock item will run out**. A solo university project, designed and delivered with AI-assisted development.
+## [Inventory Management with Demand Forecasting](https://github.com/mperpl/inventory-forecasting)
 
-* **Backend:** Python 3.13, FastAPI, SQLAlchemy, PostgreSQL 17, Alembic. Permission-based access, immutable movements with reversals, automatic change log.
-* **Forecasting:** SES, Holt and Holt-Winters, with the method chosen per item and checked on held-back weeks. Nightly recalculation and an emailed daily report.
-* **AWS:** Lambda, API Gateway, RDS, Cognito, CloudFront, S3, EventBridge Scheduler and SES, with scripted deploy and destroy.
-* **Web app:** React and TypeScript, with OIDC login.
-* **Quality:** 699 Python and 742 frontend tests, 12 architecture decision records, lint, type checks and tests in GitHub Actions.
+Records warehouse movements and forecasts **when each stock item will run out**. Solo project, deployed to AWS.
 
-*How it was made: I wrote the spec, made the design decisions and reviewed the backend. AI agents wrote much of the backend code and all of the frontend and Terraform code.*
+`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `AWS` `React` `TypeScript`
 
----
+- **Forecasts that are checked:** SES, Holt or Holt-Winters, chosen per item and tested on held-back weeks, recalculated nightly
+- **Traceable stock:** immutable movements with reversals, automatic change log, permission-based access
+- **Cloud:** Lambda, API Gateway, RDS, Cognito, CloudFront, EventBridge and SES, with scripted deploy and destroy
+- **Tested:** 699 Python and 742 frontend tests, plus 12 architecture decision records
 
-## 🚀 More work
+**How I built it:** I wrote the spec, made the design decisions and reviewed the backend. AI agents wrote much of the backend code and all of the frontend and Terraform code.
 
-### 📁 [Project and Document Management API](https://github.com/mperpl/epam-final-assigment)
-Solo final project of the EPAM Python Specialization.
-* FastAPI, async SQLAlchemy, PostgreSQL, Alembic, Valkey, Docker Compose
-* JWT access and refresh tokens, logout from all devices, Owner / Editor / Viewer roles
-* S3 document storage, with a Lambda that processes images and enforces storage quotas
-* 68 tests; GitHub Actions pipeline that deploys to AWS EC2
+## EPAM training projects (private code)
 
-### 🍽️ Restaurant booking app (EPAM trainee team project, private code)
-* Serverless phase on AWS: authentication, event-driven reporting, deployment resources
-* Microservices phase: an **MCP server** that turns the backend's OpenAPI into 38 tools for AI agents, plus event-handling and reporting services
+- **Restaurant booking platform** (team): authentication and event-driven reporting on AWS Lambda; later, in FastAPI microservices, an **MCP server** that turns the backend's OpenAPI into 38 tools for AI agents
+- **Postal service app** (solo): built twice with Claude Code agent workflows I designed, with planner, implementation, review and QA agents
 
----
+## Skills
 
-## ⚙️ Tech Stack
-
-| Category | Technologies |
+| | |
 | :--- | :--- |
-| **Backend** | **Python**, **FastAPI**, SQLAlchemy (async), Pydantic, Alembic |
-| **Data & Cache** | **PostgreSQL**, Valkey/Redis, NoSQL basics (DynamoDB, MongoDB) |
-| **AWS** | Lambda, S3, API Gateway, SQS, Cognito, SES, RDS, EC2, EventBridge |
-| **AI tooling** | Claude Code (subagents, hooks, skills), MCP, LLM API integration |
-| **Testing & tools** | Pytest, Docker, Docker Compose, Git, Ruff, uv, Linux CLI |
-| **Security** | JWT, OAuth2, Role-Based Access Control |
-
----
-
-## 🎨 Earlier frontend work
-
-* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)**: marketing site built with React
-* **[Kaizen App](https://mperczak-kaizen.netlify.app/)**: productivity web app
-
----
-
-## 📬 Let's Connect
-
-* **Email:** [perczak.michal.pl@gmail.com](mailto:perczak.michal.pl@gmail.com)
-* **Location:** Strzegom / Wrocław (remote, hybrid or on-site)
-* **GitHub:** [github.com/mperpl](https://github.com/mperpl)
+| **Backend** | Python, FastAPI, SQLAlchemy, Pydantic, Alembic, Pytest, JWT, OAuth2 |
+| **Data** | PostgreSQL, Valkey/Redis, NoSQL basics (DynamoDB, MongoDB) |
+| **AWS** | Lambda, API Gateway, S3, SQS, RDS, Cognito, SES, EventBridge, EC2 |
+| **AI** | Claude Code (subagents, hooks, skills), MCP servers, LLM API integration |
+| **Tools** | Docker, Docker Compose, Git, Linux |
