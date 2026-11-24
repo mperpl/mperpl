@@ -1,23 +1,35 @@
 # Hi, I'm Michał 👋
 
-I am a **Computer Science student** (Cloud Systems & App Engineering) and an aspiring **Backend Developer**. I specialize in building high-performance, asynchronous APIs with a focus on security and scalability.
-
-
+I'm a **Python backend developer** and a part-time **Computer Science student** (Cloud Applications and Systems Engineering). I build APIs with **FastAPI, SQLAlchemy and PostgreSQL**, run them on **AWS**, and work in an **agentic, spec-driven** way: I write the spec and the design decisions, direct AI agents, and review the result.
 
 ---
 
-## 🚀 Featured Projects
+## 🌟 Featured: [Inventory Management with Demand Forecasting](https://github.com/mperpl/inventory-forecasting)
 
-### 🌟 [PhasebookAPI (In Development)](https://github.com/mperpl/phasebook)
-**My most advanced backend project.** A scalable, asynchronous social media service featuring:
-* **Advanced Auth:** Hybrid Session Management (Redis + Signed Cookies) & OAuth2 (Google/GitHub/FB).
-* **Performance:** High-speed caching using **Redis Hashes** to optimize DB load and response times.
-* **Architecture:** Fully asynchronous stack with **FastAPI** and **SQLAlchemy 2.0**.
-* **Security:** Integrated rate limiting, background tasks for mailing, and strict Pydantic v2 validation.
+An app that records warehouse movements for a construction-chemicals producer and forecasts **when each stock item will run out**. A solo university project, designed and delivered with AI-assisted development.
 
-### 🔑 [Simple Login API](https://github.com/mperpl/simple_login_api)
-A robust foundation for user management featuring **JWT Authentication** (Access & Refresh tokens).
-* *Tech:* FastAPI, SQLAlchemy, Docker, Pytest, UV.
+* **Backend:** Python 3.13, FastAPI, SQLAlchemy, PostgreSQL 17, Alembic. Permission-based access, immutable movements with reversals, automatic change log.
+* **Forecasting:** SES, Holt and Holt-Winters, with the method chosen per item and checked on held-back weeks. Nightly recalculation and an emailed daily report.
+* **AWS:** Lambda, API Gateway, RDS, Cognito, CloudFront, S3, EventBridge Scheduler and SES, with scripted deploy and destroy.
+* **Web app:** React and TypeScript, with OIDC login.
+* **Quality:** 699 Python and 742 frontend tests, 12 architecture decision records, lint, type checks and tests in GitHub Actions.
+
+*How it was made: I wrote the spec, made the design decisions and reviewed the backend. AI agents wrote much of the backend code and all of the frontend and Terraform code.*
+
+---
+
+## 🚀 More work
+
+### 📁 [Project and Document Management API](https://github.com/mperpl/epam-final-assigment)
+Solo final project of the EPAM Python Specialization.
+* FastAPI, async SQLAlchemy, PostgreSQL, Alembic, Valkey, Docker Compose
+* JWT access and refresh tokens, logout from all devices, Owner / Editor / Viewer roles
+* S3 document storage, with a Lambda that processes images and enforces storage quotas
+* 68 tests; GitHub Actions pipeline that deploys to AWS EC2
+
+### 🍽️ Restaurant booking app (EPAM trainee team project, private code)
+* Serverless phase on AWS: authentication, event-driven reporting, deployment resources
+* Microservices phase: an **MCP server** that turns the backend's OpenAPI into 38 tools for AI agents, plus event-handling and reporting services
 
 ---
 
@@ -25,33 +37,24 @@ A robust foundation for user management featuring **JWT Authentication** (Access
 
 | Category | Technologies |
 | :--- | :--- |
-| **Backend** | **Python 3.12**, FastAPI, SQLAlchemy 2.0 (Async), Pydantic v2 |
-| **Data & Cache** | **PostgreSQL**, **Redis**, SQLite |
-| **DevOps** | **Docker, Docker Compose**, Git, **UV**, Linux CLI |
-| **Testing** | **Pytest** |
-| **Security** | OAuth2, JWT, Rate Limiting, Session Middleware |
+| **Backend** | **Python**, **FastAPI**, SQLAlchemy (async), Pydantic, Alembic |
+| **Data & Cache** | **PostgreSQL**, Valkey/Redis, NoSQL basics (DynamoDB, MongoDB) |
+| **AWS** | Lambda, S3, API Gateway, SQS, Cognito, SES, RDS, EC2, EventBridge |
+| **AI tooling** | Claude Code (subagents, hooks, skills), MCP, LLM API integration |
+| **Testing & tools** | Pytest, Docker, Docker Compose, Git, Ruff, uv, Linux CLI |
+| **Security** | JWT, OAuth2, Role-Based Access Control |
 
 ---
 
-## 🌱 Current Focus & Goals
+## 🎨 Earlier frontend work
 
-I am currently deep-diving into the development of **PhasebookAPI**, focusing on:
-* **Relational Mapping:** Implementing self-referencing relationships for nested comment threads.
-* **Scalability:** Transitioning from auto-incrementing IDs to **UUID4** to prevent resource enumeration.
-* **Real-time Connectivity:** Planning WebSocket integration for instant messaging between users.
-
----
-
-## 🎨 Past Experience (Frontend)
-*While currently focused on Backend, I have a solid foundation in React and can adapt to full-stack needs if required:*
-
-* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)** – Marketing site built with React.
-* **[Kaizen App](https://mperczak-kaizen.netlify.app/)** – Productivity web app.
+* **[MyDuoLife Landing Page](https://mperczak-myduolifeinfo.netlify.app/)**: marketing site built with React
+* **[Kaizen App](https://mperczak-kaizen.netlify.app/)**: productivity web app
 
 ---
 
 ## 📬 Let's Connect
 
 * **Email:** [perczak.michal.pl@gmail.com](mailto:perczak.michal.pl@gmail.com)
-* **Location:** Strzegom / Wrocław (Hybrid/Remote)
+* **Location:** Strzegom / Wrocław (remote, hybrid or on-site)
 * **GitHub:** [github.com/mperpl](https://github.com/mperpl)
