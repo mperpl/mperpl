@@ -1,35 +1,56 @@
-# Michał Perczak
+# Hi, I'm Michał
 
-**Python backend developer** · FastAPI, PostgreSQL, AWS · agentic spec-driven development
+I'm a **Python backend developer**. I build APIs with FastAPI and PostgreSQL, run them on AWS, and use AI agents as part of how I deliver software: I write the spec, make the design decisions and review the result.
 
-Computer Science student (cloud specialization), EPAM trainee program graduate. **Open to junior backend roles:** remote, or hybrid / on-site around Wrocław.
+I study Computer Science (cloud specialization) and completed EPAM's trainee programs. **I'm open to junior backend roles**, remote or around Wrocław.
 
-[Email](mailto:perczak.michal.pl@gmail.com)
+📫 **perczak.michal.pl@gmail.com**
+
+---
 
 ## [Inventory Management with Demand Forecasting](https://github.com/mperpl/inventory-forecasting)
 
-Records warehouse movements and forecasts **when each stock item will run out**. Solo project, deployed to AWS.
+**It shows a small producer when each item will run out, while there's still time to reorder.**
 
-`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `AWS` `React` `TypeScript`
+[![Stock level chart: past stock as a solid line, the forecast as a dashed line, the warning period shaded orange](assets/forecast.png)](https://github.com/mperpl/inventory-forecasting)
 
-- **Forecasts that are checked:** SES, Holt or Holt-Winters, chosen per item and tested on held-back weeks, recalculated nightly
-- **Traceable stock:** immutable movements with reversals, automatic change log, permission-based access
-- **Cloud:** Lambda, API Gateway, RDS, Cognito, CloudFront, EventBridge and SES, with scripted deploy and destroy
-- **Tested:** 699 Python and 742 frontend tests, plus 12 architecture decision records
+<sub>Demo data, Polish interface. Solid line: actual stock. Dashed line: forecast. Orange: the warning period before stock runs out.</sub>
 
-**How I built it:** I wrote the spec, made the design decisions and reviewed the backend. AI agents wrote much of the backend code and all of the frontend and Terraform code.
+- **Forecasting:** picks a method for each item by checking it against recent weeks it hasn't seen, and recalculates every night
+- **Daily report:** what is about to run out arrives by email
+- **History you can trust:** stock movements are never edited, only reversed, and changes are logged automatically
+- **Cloud on demand:** scripts bring the AWS app up for a demo and take it down afterwards
 
-## EPAM training projects (private code)
+```mermaid
+flowchart LR
+    U([User]) --> CF[CloudFront]
+    U -. login .-> C[Cognito]
+    CF --> S3[(S3<br/>React app)]
+    CF --> G[API Gateway] --> L[Lambda<br/>FastAPI]
+    L --> DB[(RDS<br/>PostgreSQL)]
+    E[EventBridge<br/>every night] --> F[Lambda<br/>forecast job]
+    F --> DB
+    F --> SES[SES<br/>daily report]
+```
 
-- **Restaurant booking platform** (team): authentication and event-driven reporting on AWS Lambda; later, in FastAPI microservices, an **MCP server** that turns the backend's OpenAPI into 38 tools for AI agents
-- **Postal service app** (solo): built twice with Claude Code agent workflows I designed, with planner, implementation, review and QA agents
+**How it was made:** the spec, the design decisions and the backend review are mine. AI agents wrote much of the backend and all of the frontend and Terraform.
 
-## Skills
+---
 
-| | |
-| :--- | :--- |
-| **Backend** | Python, FastAPI, SQLAlchemy, Pydantic, Alembic, Pytest, JWT, OAuth2 |
-| **Data** | PostgreSQL, Valkey/Redis, NoSQL basics (DynamoDB, MongoDB) |
-| **AWS** | Lambda, API Gateway, S3, SQS, RDS, Cognito, SES, EventBridge, EC2 |
-| **AI** | Claude Code (subagents, hooks, skills), MCP servers, LLM API integration |
-| **Tools** | Docker, Docker Compose, Git, Linux |
+## Also built
+
+**MCP server for a restaurant booking platform** · EPAM team project, private code<br/>
+Turns the backend's OpenAPI description into tools that AI agents can call, checking input before it reaches the backend.
+
+**Agent workflow for a postal service app** · EPAM AI program, private code<br/>
+Claude Code subagents that plan, implement, review and test, run by an orchestrator I designed.
+
+---
+
+## What I work with
+
+**Backend:** Python · FastAPI · SQLAlchemy · Pydantic · Alembic · Pytest<br/>
+**Data:** PostgreSQL · Valkey / Redis<br/>
+**AWS:** Lambda · API Gateway · S3 · SQS · RDS · Cognito · SES · EventBridge<br/>
+**AI:** Claude Code · MCP · LLM API integration<br/>
+**Tools:** Docker · Git · Linux
